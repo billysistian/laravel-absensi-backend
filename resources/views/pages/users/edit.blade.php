@@ -87,7 +87,7 @@
                                 <label>Phone</label>
                                 <input type="number" class="form-control" name="phone" value="{{ $user->phone }}">
                             </div>
-                            {{-- <div class="form-group">
+                            <div class="form-group">
                                 <label>Position</label>
                                 <input type="text"
                                     class="form-control @error('position')
@@ -112,7 +112,7 @@
                                         {{ $message }}
                                     </div>
                                 @enderror
-                            </div> --}}
+                            </div>
                             <div class="form-group">
                                 <label class="form-label">Roles</label>
                                 <div class="selectgroup w-100">

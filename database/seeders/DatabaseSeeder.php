@@ -21,5 +21,17 @@ class DatabaseSeeder extends Seeder
             'email' => 'billy@fic.com',
             'password' => Hash::make('12345678')
         ]);
+
+        //data dummy for company
+        \App\Models\Company::create([
+            'name' => 'PT. GOMEGA',
+            'email' => 'fic@gomega.com',
+            'address' => 'Jl. Pangeran Tirtayasa',
+            'latitude' => '-5.413331',
+            'longitude' => '105.320831',
+            'radius_km' => '0.5',
+            'time_in' => '08:00',
+            'time_out' => '17:00',
+        ]);
     }
 }
